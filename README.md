@@ -1,4 +1,5 @@
 # Companies
 
 ### Use jsDelivr – Open Source CDN
-[data.json](https://cdn.jsdelivr.net/gh/senseyedeveloper/companies/data.json)
+ * [companies.json](https://cdn.jsdelivr.net/gh/senseyedeveloper/geomapdata/companies.json)
+ * [courses.json](https://cdn.jsdelivr.net/gh/senseyedeveloper/geomapdata/courses.json)
