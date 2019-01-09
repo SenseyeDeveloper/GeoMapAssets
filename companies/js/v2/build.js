@@ -2516,7 +2516,7 @@ $(document).ready(function () {
             $("#js-result-company-count"),
             $("#js-result-show-time")
         ),
-        new ApiClient("https://cdn.jsdelivr.net/gh/senseyedeveloper/geomapdata/companies.json"),
+        new ApiClient(COMPANIES_DATA_JSON),
         new CompanyArchiver(),
         new FilterContainerBuilder({
             [REVIEW_COUNT_CRITERIA_NAME]: new ReviewExistsFilterMatchBuilder($reviewExists, urlStateContainer.getCriteriaByName(REVIEW_COUNT_CRITERIA_NAME)),
